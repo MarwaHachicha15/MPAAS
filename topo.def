@@ -1,0 +1,17 @@
+# simple topology specification
+#
+# this is a sample topology file
+# it contains a 4x4 grid in x-y direction
+#
+# syntax: nodeName x y z
+# nodeName: any string without space
+# coordinates: integer values,
+# one line per node
+# negative coordinates are welcome
+node0 0 0 0
+node1 100 0 0
+node2 1 1 1
+node3 101 1 1
+node4 1 0 1
+node5 101 0 1
+node6 2 0 1

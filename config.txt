@@ -1,0 +1,13 @@
+simulation=sensor-network
+battery=10000,10000,15,15,15,15
+monitors=packet,energy,serial,leds
+ports=0:0:2390,1:0:2391
+seconds=171
+platform=micaz
+lossy-model=false
+report-seconds
+sensor-data=light:0:valeur1.dat,light:1:valeur2.dat,light:2:valeur3.dat,light:3:valeur4.dat,light:4:valeur5.dat
+show-packets=true
+topology=static
+topology-file=topo.def
+nodecount=2,2,1,1

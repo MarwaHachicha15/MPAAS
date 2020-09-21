@@ -1,0 +1,1 @@
+java -classpath tinyos.jar net.tinyos.sf.SerialForwarder -comm network@localhost:2390

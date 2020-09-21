@@ -1,0 +1,1 @@
+java -jar AZEM.jar -config-file=./config.txt Gateway.elf ClusterHead.elf Node.1.elf Node.2.elf
